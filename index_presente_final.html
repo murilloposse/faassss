@@ -1,0 +1,206 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Feliz Aniversário Aline</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #ffe6f0;
+      color: #4d004d;
+      overflow-x: hidden;
+    }
+
+    section {
+      padding: 80px 20px;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .card {
+      background: #fff0fa;
+    }
+
+    .card h1 {
+      font-size: 2.5em;
+      font-family: 'Comic Sans MS', cursive;
+      color: #e60073;
+    }
+
+    .photos-section {
+      background: #ffffff;
+    }
+
+    .photos-section h2 {
+      font-size: 1.8em;
+      margin-bottom: 20px;
+    }
+
+    .photo-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .photo-grid img {
+      width: 200px;
+      height: auto;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    .message-section {
+      background: #ffd6ec;
+      font-size: 1.2em;
+      color: #660033;
+      line-height: 1.6;
+      border-top: 5px dashed #ff80bf;
+      font-family: 'Georgia', serif;
+    }
+
+    .message-section h3 {
+      font-size: 1.8em;
+      margin-bottom: 20px;
+    }
+
+    .final-hint {
+      background: #fff0f5;
+      font-size: 1.5em;
+      color: #99004d;
+    }
+
+    .final-hint strong {
+      font-size: 1.6em;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Página 1 -->
+  <section class="card">
+    <h1>Feliz aniversário minha princesa 🎉</h1>
+    <p>Deslize para baixo ai momoi 💖</p>
+  </section>
+
+  <!-- Página 2: Fotos -->
+  <section class="photos-section">
+    <h2>Nossas Fotos 💞</h2>
+    <div class="photo-grid">
+      <img src="foto1.jpg" alt="Foto 1">
+      <img src="foto2.jpg" alt="Foto 2">
+      <img src="foto3.jpg" alt="Foto 3">
+      <img src="foto4.jpg" alt="Foto 4">
+    </div>
+  </section>
+  <!-- Página 2.5: Música com animação -->
+<section class="music-section" style="background: #ffe0f0; position: relative; overflow: hidden;">
+  <style>
+    .music-section h2 {
+      font-size: 2em;
+      color: #cc0066;
+      margin-bottom: 30px;
+      animation: pulse 2s infinite;
+    }
+
+    .spotify-card {
+      background: #fff;
+      padding: 20px;
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+      width: 300px;
+      text-align: left;
+    }
+
+    .spotify-card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .spotify-card p {
+      margin: 10px 0 0;
+      font-weight: bold;
+      color: #333;
+    }
+
+    .heart {
+      position: absolute;
+      bottom: 0;
+      width: 24px;
+      height: 24px;
+      background: url('https://cdn-icons-png.flaticon.com/512/833/833472.png') no-repeat center;
+      background-size: cover;
+      animation: floatUp 5s linear infinite;
+      opacity: 0.7;
+    }
+
+    .heart:nth-child(1) { left: 10%; animation-delay: 0s; }
+    .heart:nth-child(2) { left: 30%; animation-delay: 1s; }
+    .heart:nth-child(3) { left: 50%; animation-delay: 2s; }
+    .heart:nth-child(4) { left: 70%; animation-delay: 3s; }
+    .heart:nth-child(5) { left: 90%; animation-delay: 4s; }
+
+    @keyframes floatUp {
+      0% { transform: translateY(0); opacity: 0.7; }
+      100% { transform: translateY(-120vh); opacity: 0; }
+    }
+
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.1); color: #ff66a3; }
+    }
+  </style>
+
+  <h2>Nossa música 💖</h2>
+  <div class="spotify-card">
+    <img src="lady.jpg" alt="Die With A Smile">
+    <p>Die With A Smile (feat. Bruno Mars) - Lady Gaga</p>
+    <audio controls autoplay loop>
+      <source src="musica.mp3" type="audio/mpeg">
+      Seu navegador não suporta áudio HTML5.
+    </audio>
+  </div>
+
+  <div class="heart"></div>
+  <div class="heart"></div>
+  <div class="heart"></div>
+  <div class="heart"></div>
+  <div class="heart"></div>
+</section>
+
+
+  <!-- Página 3: Texto longo -->
+  <section class="message-section">
+    <h3>Um textinho especial para você minha princesa 💌</h3>
+    <p>
+      Estou vindo aqui lhe dizer que isso é mais que apenas um aniversário, é o dia mais incrível do mundo! O dia que minha princesa nasceu, aquela mina Alinezinha apareceu para iluminar a vida de todos ao redor. <br><br>
+
+      Gostaria de te dizer novamente que você sempre será um anjo em minha vida, aquela pessoa que chegou do nada e mudou completamente tudo. Estou fazendo isso pois você é uma garota incrível que merece o mundo e que passa por muitas dificuldades, e isso é apenas um jeitinho de eu te demostrar o meu grande amor por você. <br><br>
+
+      A pessoa mais radiante e incrível que eu poderia encontrar, a pessoa que me dá motivos para tudo, a pessoa que me inspira a seguir em tudo. Você é a pessoa mais incrível que eu já conheci na minha vida inteira e se a gente ficar falando aqui o quanto você é incrível, acho que o arquivo nem irá abrir de tanta coisa kakaka. <br><br>
+
+      Aline eu só queria te dizer que você sempre será minha paixão, minha princesa, a garota dos meus sonhos, a garota que sempre sonhei em ter do meu lado. <br><br>
+
+      Queria te agradecer por tudo que você faz por mim e por nós, o quanto você luta pela gente. Saiba que sou muito grato a Deus por ele ter te colocado na minha vida, ter feito a gente se cruzar. Ele não poderia ter colocado outra pessoa além de você. <br><br>
+
+      Você é minha Alinezinha, minha princesa. Eu não tenho palavras para te explicar o quanto sou grato por ter você comigo. Obrigadooooo Alineeeee por tudooooooo, por absolutamente tudo. Você é incrível. <br><br>
+
+      Eu te amoooo muito muito muito mesmo minha princesa, feliz aniversário da pessoa mais incrível desse mundoo 🎉🥳
+    </p>
+  </section>
+
+  <!-- Página 4: Texto no meio -->
+  <section class="final-hint">
+    <strong>Ainda não acabou.</strong><br><br>
+    O seu presente de princesa está junto com algo que te dei recentemente 💖🎁
+  </section>
+
+</body>
+</html>
